@@ -12,7 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.Event{
+  height: 300px;
+  background-image: url("https://www.apple.com/v/apple-events/home/u/images/meta/overview__bcphzsdb4fpu_og.png?202203161557");
+  text-align: center;
+  color: white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
