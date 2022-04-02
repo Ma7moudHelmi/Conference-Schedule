@@ -5,7 +5,7 @@ import {Data} from "./eventData";
 import { useState } from 'react';
 import {SpeakerList} from './speakerData';
 function App() {
-  const [Speakersnames, setTodos] = useState(["Speaker", "Speaker","Speaker" , "Speaker","Speaker","Speaker","Speaker","Speaker"]);
+  const [Speakersnames, setTodos] = useState(["Speaker", "Speaker","Speaker" , "Speaker"]);
 
   return (
     <>
