@@ -1,17 +1,18 @@
-
 import { useState } from "react";
 
-function Details({title,Description,place}) {
+function Details({ title, Description, location }) {
   return (
-      <>
-      <h1>{title}</h1>
-      <p>{Description}</p>
-      <p>{place}</p>
-      
-      </>
-
+    <>
+      <div className="Event ">
+        <h1>{title}</h1>
+        <p>{Description}</p>
+        <br />
+        <h3>{location}</h3>
+        <br />
+        <button id="btnBuy">Buy Tickets</button>
+      </div>
+    </>
   );
 }
-
 
 export default Details;
