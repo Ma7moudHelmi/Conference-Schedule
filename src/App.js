@@ -1,14 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Details } from './Event Details';
-import { navhead } from './navbar';
+import Details from './Event Details';
+import Nav  from "./nav";
 
 function App() {
 
   return (
     <>
-    <navhead/>
-      <Details/>
+      <Nav/>
     </>
   );
 

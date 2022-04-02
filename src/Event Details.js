@@ -1,5 +1,7 @@
-import "./App.css"
-export function Details(title,Description,place,speaker) {
+
+import { useState } from "react";
+
+function Details({title,Description,place}) {
   return (
       <>
       <h1>{title}</h1>
@@ -10,3 +12,6 @@ export function Details(title,Description,place,speaker) {
 
   );
 }
+
+
+export default Details;
