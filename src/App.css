@@ -12,6 +12,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.speakerlist{
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
 .Event p {
   width: 500px;
   margin: auto;
